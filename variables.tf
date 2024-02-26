@@ -2,7 +2,7 @@
 // Optional Variables
 // ----------------------------------------------------------------------------
 variable "region" {
-  description = "AWS region code for creating resources."
+  description = "us-east-1"
   type        = string
 }
 
@@ -12,7 +12,7 @@ variable "profile" {
 }
 
 variable "cluster_version" {
-  description = "Kubernetes version to use for the EKS cluster."
+  description = "1.26"
   type        = string
 }
 
@@ -23,7 +23,7 @@ variable "vault_user" {
 }
 
 variable "cluster_name" {
-  description = "Name of the Kubernetes cluster to create"
+  description = "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"
   type        = string
   default     = ""
 }
@@ -41,17 +41,17 @@ variable "is_jx2" {
 }
 
 variable "jx_git_url" {
-  description = "URL for the Jenins X cluster git repository"
+  description = "https://github.com/jx3-gitops-repositories/jx3-terraform-eks.git"
   type        = string
 }
 
 variable "jx_bot_username" {
-  description = "Bot username used to interact with the Jenkins X cluster git repository"
+  description = "bot_user"
   type        = string
 }
 
 variable "jx_bot_token" {
-  description = "Bot token used to interact with the Jenkins X cluster git repository"
+  description = "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"
   type        = string
 }
 
